@@ -6,8 +6,6 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: reviewdog/action-actionlint@v1
       - id: test
         run: echo test
       - id: test
