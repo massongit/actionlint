@@ -1,0 +1,12 @@
+name: test
+on:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - id: test
+        run: echo test
+      - id: test
+        run: echo test
